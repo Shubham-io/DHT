@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(to bottom right, rgb(102, 161, 180), orange);
+    
+}
+
+.container {
+    width: 30%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: rgba(255, 0, 0, 0.265);
+}
+
+.header {
+    text-align: center;
+    line-height: 1.5;
+}
+
+.btn {
+    background-color: rgb(221, 255, 71);
+    border: 2px solid black;
+    padding: 5px;
+}
